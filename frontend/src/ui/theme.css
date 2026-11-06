@@ -1,0 +1,49 @@
+/* Tema TEUNO (paleta corporativa aproximada — reemplazar con hex del manual). */
+:root {
+  --teuno-navy: #0C447C;
+  --teuno-navy-700: #185FA5;
+  --teuno-blue: #378ADD;
+  --teuno-blue-100: #E6F1FB;
+  --teuno-ok: #0F6E56;
+  --teuno-warn: #854F0B;
+  --teuno-err: #A32D2D;
+
+  --bg: #f4f6f9;
+  --surface: #ffffff;
+  --surface-2: #f0f3f7;
+  --border: #e2e7ee;
+  --text: #1a2230;
+  --text-muted: #5f6b7d;
+
+  --radius: 8px;
+  --mono: ui-monospace, "SFMono-Regular", "Menlo", "Consolas", monospace;
+  --sans: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 8px 14px;
+  font-size: 14px;
+}
+button:hover { background: var(--surface-2); }
+button:disabled { opacity: 0.55; cursor: default; }
+
+.btn-primary {
+  background: var(--teuno-blue);
+  border-color: var(--teuno-blue);
+  color: #fff;
+}
+.btn-primary:hover { background: var(--teuno-navy-700); }

@@ -1,0 +1,45 @@
+.results {
+  padding: 16px;
+}
+.results__empty,
+.results__error {
+  padding: 32px 16px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+.results__error {
+  color: var(--teuno-err);
+}
+.results__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 16px;
+}
+.stat {
+  background: var(--surface-2);
+  border-radius: var(--radius);
+  padding: 10px 12px;
+}
+.stat__label {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.stat__value {
+  font-size: 22px;
+  font-weight: 500;
+}
+.stat__value--accent {
+  color: var(--teuno-navy-700);
+}
+.results__label {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.results__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

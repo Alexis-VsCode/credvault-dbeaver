@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Segoe UI, system-ui, sans-serif">
+  <rect width="900" height="420" rx="12" fill="#ffffff" stroke="#e2e7ee"/>
+  <!-- navbar -->
+  <rect x="0" y="0" width="900" height="54" rx="12" fill="#0C447C"/>
+  <rect x="0" y="30" width="900" height="24" fill="#0C447C"/>
+  <rect x="20" y="15" width="24" height="24" rx="6" fill="#378ADD"/>
+  <text x="52" y="32" fill="#ffffff" font-size="16" font-weight="500">TEUNO · CredVault DBeaver</text>
+  <rect x="770" y="13" width="108" height="28" rx="8" fill="#378ADD"/>
+  <text x="824" y="32" fill="#ffffff" font-size="13" text-anchor="middle">Escanear</text>
+  <!-- sidebar -->
+  <rect x="0" y="54" width="250" height="366" fill="#ffffff" stroke="#e2e7ee"/>
+  <text x="20" y="84" fill="#5f6b7d" font-size="12">Instalaciones detectadas</text>
+  <rect x="16" y="94" width="218" height="34" rx="8" fill="#f0f3f7"/>
+  <text x="30" y="116" fill="#0F6E56" font-size="13">✓ workspace6 · store</text>
+  <rect x="16" y="134" width="218" height="34" rx="8" fill="#f0f3f7"/>
+  <text x="30" y="156" fill="#0F6E56" font-size="13">✓ workspace · installer</text>
+  <text x="20" y="196" fill="#5f6b7d" font-size="12">Log</text>
+  <rect x="16" y="206" width="218" height="92" rx="8" fill="#f4f6f9"/>
+  <text x="26" y="226" fill="#0F6E56" font-size="11" font-family="monospace">ok   AES-128-CBC</text>
+  <text x="26" y="244" fill="#0F6E56" font-size="11" font-family="monospace">ok   IV leído</text>
+  <text x="26" y="262" fill="#0F6E56" font-size="11" font-family="monospace">ok   3 descifradas</text>
+  <text x="26" y="280" fill="#185FA5" font-size="11" font-family="monospace">info 2 con contraseña</text>
+  <!-- main stats -->
+  <rect x="270" y="74" width="180" height="56" rx="8" fill="#f0f3f7"/>
+  <text x="284" y="96" fill="#5f6b7d" font-size="12">Instalaciones</text>
+  <text x="284" y="120" fill="#1a2230" font-size="22" font-weight="500">2</text>
+  <rect x="460" y="74" width="180" height="56" rx="8" fill="#f0f3f7"/>
+  <text x="474" y="96" fill="#5f6b7d" font-size="12">Conexiones</text>
+  <text x="474" y="120" fill="#1a2230" font-size="22" font-weight="500">3</text>
+  <rect x="650" y="74" width="230" height="56" rx="8" fill="#f0f3f7"/>
+  <text x="664" y="96" fill="#5f6b7d" font-size="12">Con contraseña</text>
+  <text x="664" y="120" fill="#185FA5" font-size="22" font-weight="500">2</text>
+  <!-- rows -->
+  <rect x="270" y="150" width="610" height="56" rx="8" fill="#ffffff" stroke="#e2e7ee"/>
+  <text x="286" y="174" fill="#1a2230" font-size="14" font-weight="500">ventas-demo</text>
+  <text x="286" y="192" fill="#5f6b7d" font-size="12">demo_user @ db.example.local:5432 · workspace6</text>
+  <text x="770" y="184" fill="#1a2230" font-size="13" font-family="monospace">••••••• 👁 ⧉</text>
+  <rect x="270" y="214" width="610" height="56" rx="8" fill="#ffffff" stroke="#e2e7ee"/>
+  <text x="286" y="238" fill="#1a2230" font-size="14" font-weight="500">reporting-demo</text>
+  <text x="286" y="256" fill="#5f6b7d" font-size="12">report_ro @ reports.example.local:5432 · workspace6</text>
+  <text x="762" y="248" fill="#0F6E56" font-size="13" font-family="monospace">R3port!2026 ⧉</text>
+  <rect x="270" y="278" width="610" height="56" rx="8" fill="#ffffff" stroke="#e2e7ee"/>
+  <text x="286" y="302" fill="#1a2230" font-size="14" font-weight="500">legacy-demo</text>
+  <text x="286" y="320" fill="#5f6b7d" font-size="12">root @ 127.0.0.1:3306 · workspace</text>
+  <text x="792" y="312" fill="#5f6b7d" font-size="12">(sin contraseña)</text>
+</svg>

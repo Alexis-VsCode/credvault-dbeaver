@@ -1,0 +1,24 @@
+.log {
+  font-family: var(--mono);
+  font-size: 11px;
+  line-height: 1.8;
+  background: var(--bg);
+  border-radius: var(--radius);
+  padding: 8px;
+  color: var(--text-muted);
+}
+.log--empty {
+  text-align: center;
+}
+.log__line {
+  display: flex;
+  gap: 6px;
+}
+.log__tag {
+  font-weight: 700;
+  min-width: 34px;
+}
+.log__tag--ok { color: var(--teuno-ok); }
+.log__tag--info { color: var(--teuno-navy-700); }
+.log__tag--warn { color: var(--teuno-warn); }
+.log__tag--error { color: var(--teuno-err); }

@@ -1,0 +1,41 @@
+[project]
+name = "credvault-dbeaver"
+version = "1.0.0"
+description = "Recuperador local de credenciales de DBeaver — arquitectura hexagonal (DDD/TDD/ODD)."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Alexis Barrera MancoDev" }]
+license = { text = "MIT" }
+dependencies = [
+    "cryptography>=42.0",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx>=0.27", "mypy>=1.9", "ruff>=0.4"]
+
+[project.scripts]
+credvault = "credvault.infrastructure.cli.main:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.mypy]
+python_version = "3.10"
+packages = ["credvault"]
+mypy_path = "src"
+ignore_missing_imports = true
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
